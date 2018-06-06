@@ -1,0 +1,10 @@
+Package: csus
+Title: Recode Items and Calculate Mean for the Children's Social Understanding Scale
+Version: 0.0.0.9000
+Authors@R: person("Stephanie", "Gluck", email = "sgluck@uoregon.edu", role = c("aut", "cre"))
+Description: The Children's Social Understanding Scale (CSUS; Tahiroglu et al. 2014) was developed as an in-depth parent-report measure aimed at accessing individual differences in children's Theory of Mind understanding (desire, knowledge, intention, emotion, belief, perception). The csus package provides functions to recode reverse scored csus items, and to calculate scale means for both the full (42-items) and short (18-items) scale. The csus package is meant to be used with the full 42-items scale. In order for the package to run, the 42-items of the csus will need to have the following column header: 'tom1', 'tom2', 'tom3'.... 'tom40', 'tom41', and 'tom42', for each respective item. 
+Depends: R (>= 3.4.0)
+License: na
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
